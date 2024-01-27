@@ -193,7 +193,8 @@ int main() {
     <grader>EqualityGrader</grader>
     <cputimelimitsecs></cputimelimitsecs>
     <memlimitmb></memlimitmb>
-    <sandboxparams><![CDATA[{"linkargs": ["-lm"]}]]></sandboxparams>
+    <!--<sandboxparams><![CDATA[{"linkargs": ["-lm"]}]]></sandboxparams> --> <!-- la causa dei mali -->
+    <sandboxparams></sandboxparams>
     <templateparams></templateparams>
     <hoisttemplateparams>0</hoisttemplateparams>
     <extractcodefromjson>1</extractcodefromjson>
